@@ -16,6 +16,7 @@ header {
   background-color: white;
   -webkit-box-shadow: 0 10px 6px -6px #777;
           box-shadow: 0 10px 6px -6px #777;
+  z-index: 100;
 }
 
 header nav {
