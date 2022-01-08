@@ -1,0 +1,219 @@
+article#animation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #437F68;
+}
+
+article#animation {
+    path {
+        stroke-width: 2;
+    }
+
+    .logo {
+        padding: 2rem;
+    }
+
+    #c3 {
+        position: relative;
+        top: 2rem;
+        margin-right: 2rem;
+    }
+
+    #c7 {
+        position: relative;
+        top: 2rem;
+    }
+
+    #c12 {
+        position: relative;
+        bottom: 0.5rem;
+    }
+}
+
+@mixin set_animation_size($size) {
+    article#animation {
+        #c1 {
+            width: (76px*$size);
+            height: (115px*$size);
+        }
+
+        #c2 {
+            width: (74px*$size);
+            height: (90px*$size);
+        }
+
+        #c3 {
+            width: (80px*$size);
+            height: (118px*$size);
+            top: 0.5rem;
+            margin-right: 1rem;
+        }
+
+        #c4 {
+            width: (134px*$size);
+            height: (113px*$size);
+        }
+
+        #c5 {
+            width: (74px*$size);
+            height: (90px*$size);
+        }
+
+        #c6 {
+            width: (71px*$size);
+            height: (88px*$size);
+        }
+
+        #c7 {
+            width: (76px*$size);
+            height: (118px*$size);
+            top: 0.5rem;
+        }
+
+        #c8 {
+            width: (142px*$size);
+            height: (144px*$size);
+        }
+
+        #c9 {
+            width: (150px*$size);
+            height: (136px*$size);
+        }
+
+        #c10 {
+            width: (138px*$size);
+            height: (144px*$size);
+        }
+
+        #c11 {
+            width: (145px*$size);
+            height: (142px*$size);
+        }
+
+        #c12 {
+            width: (139px*$size);
+            height: (115px*$size);
+        }
+
+        #c13 {
+            width: (146px*$size);
+            height: (142px*$size);
+        }
+
+        #c14 {
+            width: (136px*$size);
+            height: (143px*$size);
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    @include set_animation_size($size: 3/4);
+
+}
+
+@media screen and (max-width: 1000px) {
+    @include set_animation_size($size: 1/2);
+
+}
+
+@media screen and (max-width: 700px) {
+    @include set_animation_size($size: 1/2.6);
+
+    article#animation {
+        #c3 {
+            margin-right: 0rem;
+        }
+
+        #c12 {
+            bottom: 0.2rem;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fillIn {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: white
+    }
+}
+
+@mixin animateCharacter($offset, $delay) {
+    stroke-dasharray: $offset;
+    stroke-dashoffset: $offset;
+    animation: fadeIn 0.5s ease-in forwards $delay;
+}
+
+article#animation {
+    svg {
+        animation: fillIn 1s ease 2s forwards;
+    }
+
+    #p1 {
+        @include animateCharacter(354, 0s)
+    }
+
+    #p2 {
+        @include animateCharacter(449, 0.3s)
+    }
+
+    #p3 {
+        @include animateCharacter(419, 0.6s)
+    }
+
+    #p4 {
+        @include animateCharacter(761, 0.9s)
+    }
+
+    #p5 {
+        @include animateCharacter(449, 1.2s)
+    }
+
+    #p6 {
+        @include animateCharacter(412, 1.5s)
+    }
+
+    #p7 {
+        @include animateCharacter(562, 1.8s)
+    }
+
+    #p8 {
+        @include animateCharacter(1678, 0s)
+    }
+
+    #p9 {
+        @include animateCharacter(1307, 0.3s)
+    }
+
+    #p10 {
+        @include animateCharacter(1336, 0.6s)
+    }
+
+    #p11 {
+        @include animateCharacter(1607, 0.9s)
+    }
+
+    #p12 {
+        @include animateCharacter(690, 1.2s)
+    }
+
+    #p13 {
+        @include animateCharacter(1471, 1.5s)
+    }
+
+    #p14 {
+        @include animateCharacter(1393, 1.8s)
+    }
+}

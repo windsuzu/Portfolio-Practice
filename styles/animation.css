@@ -1,0 +1,364 @@
+article#animation {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #437F68;
+}
+
+article#animation path {
+  stroke-width: 2;
+}
+
+article#animation .logo {
+  padding: 2rem;
+}
+
+article#animation #c3 {
+  position: relative;
+  top: 2rem;
+  margin-right: 2rem;
+}
+
+article#animation #c7 {
+  position: relative;
+  top: 2rem;
+}
+
+article#animation #c12 {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  article#animation #c1 {
+    width: 57px;
+    height: 86.25px;
+  }
+  article#animation #c2 {
+    width: 55.5px;
+    height: 67.5px;
+  }
+  article#animation #c3 {
+    width: 60px;
+    height: 88.5px;
+    top: 0.5rem;
+    margin-right: 1rem;
+  }
+  article#animation #c4 {
+    width: 100.5px;
+    height: 84.75px;
+  }
+  article#animation #c5 {
+    width: 55.5px;
+    height: 67.5px;
+  }
+  article#animation #c6 {
+    width: 53.25px;
+    height: 66px;
+  }
+  article#animation #c7 {
+    width: 57px;
+    height: 88.5px;
+    top: 0.5rem;
+  }
+  article#animation #c8 {
+    width: 106.5px;
+    height: 108px;
+  }
+  article#animation #c9 {
+    width: 112.5px;
+    height: 102px;
+  }
+  article#animation #c10 {
+    width: 103.5px;
+    height: 108px;
+  }
+  article#animation #c11 {
+    width: 108.75px;
+    height: 106.5px;
+  }
+  article#animation #c12 {
+    width: 104.25px;
+    height: 86.25px;
+  }
+  article#animation #c13 {
+    width: 109.5px;
+    height: 106.5px;
+  }
+  article#animation #c14 {
+    width: 102px;
+    height: 107.25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  article#animation #c1 {
+    width: 38px;
+    height: 57.5px;
+  }
+  article#animation #c2 {
+    width: 37px;
+    height: 45px;
+  }
+  article#animation #c3 {
+    width: 40px;
+    height: 59px;
+    top: 0.5rem;
+    margin-right: 1rem;
+  }
+  article#animation #c4 {
+    width: 67px;
+    height: 56.5px;
+  }
+  article#animation #c5 {
+    width: 37px;
+    height: 45px;
+  }
+  article#animation #c6 {
+    width: 35.5px;
+    height: 44px;
+  }
+  article#animation #c7 {
+    width: 38px;
+    height: 59px;
+    top: 0.5rem;
+  }
+  article#animation #c8 {
+    width: 71px;
+    height: 72px;
+  }
+  article#animation #c9 {
+    width: 75px;
+    height: 68px;
+  }
+  article#animation #c10 {
+    width: 69px;
+    height: 72px;
+  }
+  article#animation #c11 {
+    width: 72.5px;
+    height: 71px;
+  }
+  article#animation #c12 {
+    width: 69.5px;
+    height: 57.5px;
+  }
+  article#animation #c13 {
+    width: 73px;
+    height: 71px;
+  }
+  article#animation #c14 {
+    width: 68px;
+    height: 71.5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  article#animation #c1 {
+    width: 29.23077px;
+    height: 44.23077px;
+  }
+  article#animation #c2 {
+    width: 28.46154px;
+    height: 34.61538px;
+  }
+  article#animation #c3 {
+    width: 30.76923px;
+    height: 45.38462px;
+    top: 0.5rem;
+    margin-right: 1rem;
+  }
+  article#animation #c4 {
+    width: 51.53846px;
+    height: 43.46154px;
+  }
+  article#animation #c5 {
+    width: 28.46154px;
+    height: 34.61538px;
+  }
+  article#animation #c6 {
+    width: 27.30769px;
+    height: 33.84615px;
+  }
+  article#animation #c7 {
+    width: 29.23077px;
+    height: 45.38462px;
+    top: 0.5rem;
+  }
+  article#animation #c8 {
+    width: 54.61538px;
+    height: 55.38462px;
+  }
+  article#animation #c9 {
+    width: 57.69231px;
+    height: 52.30769px;
+  }
+  article#animation #c10 {
+    width: 53.07692px;
+    height: 55.38462px;
+  }
+  article#animation #c11 {
+    width: 55.76923px;
+    height: 54.61538px;
+  }
+  article#animation #c12 {
+    width: 53.46154px;
+    height: 44.23077px;
+  }
+  article#animation #c13 {
+    width: 56.15385px;
+    height: 54.61538px;
+  }
+  article#animation #c14 {
+    width: 52.30769px;
+    height: 55px;
+  }
+  article#animation #c3 {
+    margin-right: 0rem;
+  }
+  article#animation #c12 {
+    bottom: 0.2rem;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fillIn {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes fillIn {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+article#animation svg {
+  -webkit-animation: fillIn 1s ease 2s forwards;
+          animation: fillIn 1s ease 2s forwards;
+}
+
+article#animation #p1 {
+  stroke-dasharray: 354;
+  stroke-dashoffset: 354;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0s;
+          animation: fadeIn 0.5s ease-in forwards 0s;
+}
+
+article#animation #p2 {
+  stroke-dasharray: 449;
+  stroke-dashoffset: 449;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.3s;
+          animation: fadeIn 0.5s ease-in forwards 0.3s;
+}
+
+article#animation #p3 {
+  stroke-dasharray: 419;
+  stroke-dashoffset: 419;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.6s;
+          animation: fadeIn 0.5s ease-in forwards 0.6s;
+}
+
+article#animation #p4 {
+  stroke-dasharray: 761;
+  stroke-dashoffset: 761;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.9s;
+          animation: fadeIn 0.5s ease-in forwards 0.9s;
+}
+
+article#animation #p5 {
+  stroke-dasharray: 449;
+  stroke-dashoffset: 449;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.2s;
+          animation: fadeIn 0.5s ease-in forwards 1.2s;
+}
+
+article#animation #p6 {
+  stroke-dasharray: 412;
+  stroke-dashoffset: 412;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.5s;
+          animation: fadeIn 0.5s ease-in forwards 1.5s;
+}
+
+article#animation #p7 {
+  stroke-dasharray: 562;
+  stroke-dashoffset: 562;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.8s;
+          animation: fadeIn 0.5s ease-in forwards 1.8s;
+}
+
+article#animation #p8 {
+  stroke-dasharray: 1678;
+  stroke-dashoffset: 1678;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0s;
+          animation: fadeIn 0.5s ease-in forwards 0s;
+}
+
+article#animation #p9 {
+  stroke-dasharray: 1307;
+  stroke-dashoffset: 1307;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.3s;
+          animation: fadeIn 0.5s ease-in forwards 0.3s;
+}
+
+article#animation #p10 {
+  stroke-dasharray: 1336;
+  stroke-dashoffset: 1336;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.6s;
+          animation: fadeIn 0.5s ease-in forwards 0.6s;
+}
+
+article#animation #p11 {
+  stroke-dasharray: 1607;
+  stroke-dashoffset: 1607;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 0.9s;
+          animation: fadeIn 0.5s ease-in forwards 0.9s;
+}
+
+article#animation #p12 {
+  stroke-dasharray: 690;
+  stroke-dashoffset: 690;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.2s;
+          animation: fadeIn 0.5s ease-in forwards 1.2s;
+}
+
+article#animation #p13 {
+  stroke-dasharray: 1471;
+  stroke-dashoffset: 1471;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.5s;
+          animation: fadeIn 0.5s ease-in forwards 1.5s;
+}
+
+article#animation #p14 {
+  stroke-dasharray: 1393;
+  stroke-dashoffset: 1393;
+  -webkit-animation: fadeIn 0.5s ease-in forwards 1.8s;
+          animation: fadeIn 0.5s ease-in forwards 1.8s;
+}
+/*# sourceMappingURL=animation.css.map */
