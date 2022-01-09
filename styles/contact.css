@@ -1,6 +1,98 @@
 article#contact {
   width: 100%;
-  height: 100vh;
-  background-color: deeppink;
+  height: 100%;
+  background-color: white;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+article#contact section.left {
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 500px;
+          flex: 5 1 500px;
+  font-size: 1.25rem;
+}
+
+article#contact section.left form {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+article#contact section.left div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+article#contact section.left div label {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+article#contact section.left div input,
+article#contact section.left div textarea {
+  font-size: 1.25rem;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  width: 30%;
+  padding: 0.25;
+  resize: none;
+}
+
+article#contact section.left button {
+  border: none;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1.2rem 2.5rem;
+  border-radius: 10px;
+  background-color: #437F68;
+}
+
+article#contact section.right {
+  min-height: 70vh;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  border: 5px #fab92c double;
+  margin: 1rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=contact.css.map */
