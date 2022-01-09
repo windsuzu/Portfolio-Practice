@@ -2,7 +2,6 @@ article#introduction {
   width: 100%;
   height: 100%;
   background-color: white;
-  padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,6 +9,7 @@ article#introduction {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  padding: 3rem;
   margin: 5rem 0;
 }
 
@@ -61,52 +61,37 @@ article#introduction section.right .decorate-box {
   z-index: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1366px) {
   article#introduction section.right .decorate-box {
-    top: 9vw;
-    right: 5vw;
+    top: 4vw;
+    right: 4vw;
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1127px) {
   article#introduction section.right .decorate-box {
-    top: 10vw;
-    right: 5vw;
+    top: 4vw;
+    right: 26vw;
   }
 }
 
-@media screen and (max-width: 1145px) {
+@media screen and (max-width: 550px) {
   article#introduction section.right .decorate-box {
-    top: 3vw;
+    top: 4vw;
     right: 28vw;
   }
 }
 
-@media screen and (max-width: 950px) {
-  article#introduction section.right .decorate-box {
-    top: 4vw;
-    right: 25vw;
+@media screen and (max-width: 550px) {
+  article#introduction {
+    padding: 1rem;
+    margin: 1rem 0;
   }
-}
-
-@media screen and (max-width: 650px) {
-  article#introduction section.right .decorate-box {
-    top: 6vw;
-    right: 22vw;
+  article#introduction section.left h1 {
+    font-size: 2rem;
   }
-}
-
-@media screen and (max-width: 500px) {
-  article#introduction section.right .decorate-box {
-    top: 8vw;
-    right: 17vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  article#introduction section.right .decorate-box {
-    top: 10vw;
-    right: 12vw;
+  article#introduction section.left p {
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=introduction.css.map */

@@ -63,6 +63,10 @@ article#contact section.left div textarea {
   resize: none;
 }
 
+article#contact section.left div textarea {
+  height: 5em;
+}
+
 article#contact section.left button {
   border: none;
   cursor: pointer;
@@ -95,5 +99,27 @@ article#contact section.right {
           align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+  article#contact {
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+  article#contact section.left {
+    padding: 0.2rem;
+    font-size: 0.9rem;
+  }
+  article#contact section.left div input,
+  article#contact section.left div textarea {
+    font-size: 0.9rem;
+  }
+  article#contact section.left button {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  article#contact section.right {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

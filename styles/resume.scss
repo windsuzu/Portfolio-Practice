@@ -16,6 +16,8 @@ article#resume {
             table-layout: fixed;
             width: 100%;
             border-collapse: collapse;
+            border-top: 2px gray solid;
+            margin: 1rem 0;
 
             tr {
                 border-bottom: 2px gray solid;
@@ -69,30 +71,27 @@ article#resume {
     }
 }
 
-@media screen and (max-width: 1400px) {
-    @include decorate_height(9vw, 5vw)
+@media screen and (max-width: 1366px) {
+    @include decorate_height(4vw, 4vw)
 }
 
-@media screen and (max-width: 1250px) {
-    @include decorate_height(10vw, 5vw)
+@media screen and (max-width: 1127px) {
+    @include decorate_height(4vw, 26vw)
 }
 
-@media screen and (max-width: 1145px) {
-    @include decorate_height(3vw, 28vw)
+@media screen and (max-width: 550px) {
+    @include decorate_height(4vw, 28vw)
 }
 
-@media screen and (max-width: 950px) {
-    @include decorate_height(4vw, 25vw)
-}
 
-@media screen and (max-width: 650px) {
-    @include decorate_height(6vw, 22vw)
-}
+@media screen and (max-width: 550px) {
+    article#resume {
+        padding: 1rem;
+        margin: 2rem 0;
 
-@media screen and (max-width: 500px) {
-    @include decorate_height(8vw, 17vw)
-}
-
-@media screen and (max-width: 400px) {
-    @include decorate_height(10vw, 12vw)
+        section.left {
+            padding: 0.2rem;
+            font-size: 0.9rem;
+        }
+    }
 }

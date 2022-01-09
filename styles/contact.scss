@@ -36,6 +36,10 @@ article#contact {
                 padding: 0.25;
                 resize: none;
             }
+
+            textarea {
+                height: 5em;
+            }
         }
 
         button {
@@ -62,5 +66,31 @@ article#contact {
         font-size: 1.2rem;
         font-weight: bold;
     }
+}
 
+@media screen and (max-width:550px) {
+    article#contact {
+
+        padding: 1rem;
+        margin: 2rem 0;
+
+        section.left {
+            padding: 0.2rem;
+            font-size: 0.9rem;
+
+            div input,
+            div textarea {
+                font-size: 0.9rem;
+            }
+
+            button {
+                font-size: 1rem;
+                padding: 1rem 1.5rem;
+            }
+        }
+
+        section.right {
+            font-size: 1rem;
+        }
+    }
 }

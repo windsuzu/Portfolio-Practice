@@ -62,12 +62,22 @@ header {
     scroll-padding-top: 4rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     ul.nav_text {
         flex-direction: column;
     }
 
     ul.nav_link {
         margin-top: 24px;
+    }
+
+    :root {
+        scroll-padding-top: 13rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    header a {
+        font-size: 1.2rem;
     }
 }

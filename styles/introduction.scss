@@ -2,9 +2,9 @@ article#introduction {
     width: 100%;
     height: 100%;
     background-color: white;
-    padding: 3rem;
     display: flex;
     flex-flow: row wrap;
+    padding: 3rem;
     margin: 5rem 0;
 
     section.left {
@@ -53,30 +53,33 @@ article#introduction {
     }
 }
 
-@media screen and (max-width: 1400px) {
-    @include decorate_height(9vw, 5vw)
+@media screen and (max-width: 1366px) {
+    @include decorate_height(4vw, 4vw)
 }
 
-@media screen and (max-width: 1250px) {
-    @include decorate_height(10vw, 5vw)
+@media screen and (max-width: 1127px) {
+    @include decorate_height(4vw, 26vw)
 }
 
-@media screen and (max-width: 1145px) {
-    @include decorate_height(3vw, 28vw)
+@media screen and (max-width: 550px) {
+    @include decorate_height(4vw, 28vw)
 }
 
-@media screen and (max-width: 950px) {
-    @include decorate_height(4vw, 25vw)
-}
+@media screen and (max-width: 550px) {
+    article#introduction {
 
-@media screen and (max-width: 650px) {
-    @include decorate_height(6vw, 22vw)
-}
+        padding: 1rem;
+        margin: 1rem 0;
 
-@media screen and (max-width: 500px) {
-    @include decorate_height(8vw, 17vw)
-}
+        section.left {
+            h1 {
+                font-size: 2rem;
+            }
 
-@media screen and (max-width: 400px) {
-    @include decorate_height(10vw, 12vw)
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
 }

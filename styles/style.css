@@ -85,7 +85,7 @@ header ul.nav_link {
   scroll-padding-top: 4rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   ul.nav_text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -94,6 +94,15 @@ header ul.nav_link {
   }
   ul.nav_link {
     margin-top: 24px;
+  }
+  :root {
+    scroll-padding-top: 13rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header a {
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,8 @@ article#resume section.left table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
+  border-top: 2px gray solid;
+  margin: 1rem 0;
 }
 
 article#resume section.left table tr {
@@ -76,52 +78,35 @@ article#resume section.right .decorate-box {
   z-index: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1366px) {
   article#resume section.right .decorate-box {
-    top: 9vw;
-    right: 5vw;
+    top: 4vw;
+    right: 4vw;
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1127px) {
   article#resume section.right .decorate-box {
-    top: 10vw;
-    right: 5vw;
+    top: 4vw;
+    right: 26vw;
   }
 }
 
-@media screen and (max-width: 1145px) {
+@media screen and (max-width: 550px) {
   article#resume section.right .decorate-box {
-    top: 3vw;
+    top: 4vw;
     right: 28vw;
   }
 }
 
-@media screen and (max-width: 950px) {
-  article#resume section.right .decorate-box {
-    top: 4vw;
-    right: 25vw;
+@media screen and (max-width: 550px) {
+  article#resume {
+    padding: 1rem;
+    margin: 2rem 0;
   }
-}
-
-@media screen and (max-width: 650px) {
-  article#resume section.right .decorate-box {
-    top: 6vw;
-    right: 22vw;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  article#resume section.right .decorate-box {
-    top: 8vw;
-    right: 17vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  article#resume section.right .decorate-box {
-    top: 10vw;
-    right: 12vw;
+  article#resume section.left {
+    padding: 0.2rem;
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=resume.css.map */
