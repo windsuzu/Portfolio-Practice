@@ -54,3 +54,20 @@ header {
 .active {
     color: #437F68;
 }
+
+
+// 網頁利用錨點連結導航時，導覽列遮住了標題怎麼辦
+// https://blog.driftking.tw/QuickFix/navbar-covers-heading-with-anchor-link/
+:root {
+    scroll-padding-top: 4rem;
+}
+
+@media screen and (max-width: 640px) {
+    ul.nav_text {
+        flex-direction: column;
+    }
+
+    ul.nav_link {
+        margin-top: 24px;
+    }
+}

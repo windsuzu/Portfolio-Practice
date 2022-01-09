@@ -80,4 +80,20 @@ header ul.nav_link {
 .active {
   color: #437F68;
 }
+
+:root {
+  scroll-padding-top: 4rem;
+}
+
+@media screen and (max-width: 640px) {
+  ul.nav_text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ul.nav_link {
+    margin-top: 24px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

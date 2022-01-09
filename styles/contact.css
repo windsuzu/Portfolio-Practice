@@ -10,6 +10,7 @@ article#contact {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin-bottom: 2rem;
 }
 
 article#contact section.left {
