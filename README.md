@@ -57,6 +57,7 @@
 **Portfolio Practice** 是一個使用 HTML5 + CSS3 + SCSS + 一點點 Javascript 來建立的練習用個人履歷網頁 (portfolio)。**Portfolio Practice** 的主要特色有:
 
 - 網頁開頭動畫
+  - [Figma (for getting SVG files)](portfolio-animation.fig)
   - [HTML](https://github.com/windsuzu/Portfolio-Practice/blob/main/index.html#L28-L258)
   - [JS](https://github.com/windsuzu/Portfolio-Practice/blob/main/app.js#L1-L7)
   - [SCSS](https://github.com/windsuzu/Portfolio-Practice/blob/c983e94c2a19a27907b12573d1a2df0128e4626d/styles/animation.scss)
